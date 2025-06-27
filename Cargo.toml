@@ -1,0 +1,17 @@
+[package]
+name = "Soulcuit_v2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rig-core = "0.13.0"
+serde_json = "1.0.140"
+tokio = "1.45.1"
+schemars = "0.8.22"
+anyhow = "1.0.98"
+nalgebra = "0.33.2"
+dashmap = "6.1.0"
+itertools = "0.14.0"
+vector_derive = { path = "./vector_derive"}
+serde = { version = "1.0.219", features = ["derive"] }
+chrono = "0.4.41"
